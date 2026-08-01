@@ -1,7 +1,28 @@
 aid: plush
 name: Plush
-description: Plush is a company surfaced as a portfolio company of anthemis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Plush is an AI-powered fashion discovery and shopping platform at plush.shop
+  that lets shoppers describe what they want in natural language and returns
+  curated results from trusted and emerging brands. Rather than rigid keyword
+  search, Plush matches on mood, aesthetic, and intent, layering image search,
+  smart real-time filters, influencer edit collections, and wishlists on top of
+  its proprietary AI curation. Founded by Chang Liu (CEO) and Ying Zhu (CTO) —
+  who met through Y Combinator's co-founder matching — Plush is backed by the
+  Anthemis Female Innovators Lab Fund and the Oxford Seed Fund. It is a
+  consumer-facing web application; no public developer API is published at this
+  time.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.plush.shop/favicon.ico
 url: https://raw.githubusercontent.com/api-evangelist/plush/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Fashion
+- Retail
+- Ecommerce
+- Artificial Intelligence
+- Search
+- Shopping
+- Consumer
 apis: []
+common:
+- type: DomainSecurity
+  url: security/plush-domain-security.yml
+- type: Website
+  url: https://www.plush.shop
+- type: About
+  url: https://www.plush.shop/about
+- type: Support
+  url: https://www.plush.shop/faq
+- type: TermsOfService
+  url: https://www.plush.shop/terms
+- type: PrivacyPolicy
+  url: https://www.plush.shop/policy
+- type: Login
+  url: https://www.plush.shop/login
+- type: LinkedIn
+  url: https://www.linkedin.com/company/plushshopping/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
